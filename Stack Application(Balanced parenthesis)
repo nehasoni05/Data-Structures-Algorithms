@@ -22,7 +22,7 @@ public class Main
     }
     public int pop(char ch)
     {
-        if(stack[top]==-1)
+        if(top==-1)
         {
             System.out.println("stack underflow");
             return -1;
