@@ -32,9 +32,28 @@ public class Main
     {
         if(root==null)
         return;
+        
         inOrderTraversal(root.leftChild);
         System.out.print(root.data+" ");
         inOrderTraversal(root.rightChild);
+    }
+    public void preOrderTraversal(Node root)
+    {
+        if(root==null)
+        return;
+        
+        System.out.print(root.data+" ");
+        inOrderTraversal(root.leftChild);
+        inOrderTraversal(root.rightChild);
+    }
+    public void postOrderTraversal(Node root)
+    {
+        if(root==null)
+        return;
+        
+        inOrderTraversal(root.leftChild);
+        inOrderTraversal(root.rightChild);
+        System.out.print(root.data+" ");
     }
 	public static void main(String[] args) 
 	{
@@ -54,5 +73,14 @@ public class Main
 	    
 	    System.out.println("In-Order Traversal of binary tree is->");
 	    obj.inOrderTraversal(root);
+	    System.out.println();
+	    
+	    System.out.println("Pre-Order Traversal of binary tree is->");
+	    obj.preOrderTraversal(root);
+	    System.out.println();
+	    
+	    System.out.println("Post-Order Traversal of binary tree is->");
+	    obj.postOrderTraversal(root);
+	    
 	}
 }
