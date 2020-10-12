@@ -1,0 +1,49 @@
+import java.util.*;
+public class Main
+{
+    int maxsize;
+    int size=0;
+    int[] heap;
+    public Main(int s)
+    {
+        maxsize=s;
+        heap=new int[maxsize+1];
+        heap[0]=Integer.MAX_VALUE;
+    }
+    public int parent(int position)
+    {
+        return position/2;
+    }
+    public void buildHeap(int item)
+    {
+        int pos,temp;
+        heap[++size]=item;
+        int current=size;
+        while(heap[current]>heap[parent(current)])
+        {
+            pos=parent(current);
+            temp=heap[current];
+            heap[current]=heap[pos];
+            heap[pos]=temp;
+            current=parent(current);
+        }
+    }
+    public void printHeap()
+    {
+        for(int i=1;i<=size/2;i++)
+        System.out.println("Parent "+heap[i]+" Left Child: "+heap[2*i]+" Right Child "+heap[2*i+1]);
+    }
+	public static void main(String[] args)
+	{
+	    Scanner in=new Scanner(System.in);
+		int n,i,var;
+		n=in.nextInt();
+		Main obj=new Main(n);
+		for(i=0;i<n;i++)
+		{
+		    var=in.nextInt();
+		    obj.buildHeap(var);
+		}
+		obj.printHeap();
+	}
+}
