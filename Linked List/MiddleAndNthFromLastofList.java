@@ -1,3 +1,21 @@
+/*
+Given a pointer to the head node of a linked list, find the middle node & Nth node from end of the list.
+
+findMiddle(head) : Return the middle node if number of nodes in linked list in odd, otherwise there will be two middle nodes and return the second middle node 
+(return -1 if list is empty).
+
+Sample Input
+5                    // Total elements in the list for test-case-1
+1 2 3 4 5            // Elements of the list for test-case-1
+2                    // Value of N
+
+Sample Output
+
+3
+4
+
+*/
+
 import java.util.*;
 public class MiddleAndNthFromLastofList
 {
