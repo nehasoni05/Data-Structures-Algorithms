@@ -1,3 +1,23 @@
+/*
+Move the Smallest and largest to head and tail of list
+Given a pointer to the head node of a linked list, find the smallest and largest of this list. Now move the smallest node to the front and move the largest node to the end 
+of the list.
+
+Sample Input
+1
+7
+12
+8
+6
+20
+1
+50
+16
+
+Sample Output
+1 12 8 6 20 16 50
+*/
+
 
 import java.util.*;
 public class ShiftElements
