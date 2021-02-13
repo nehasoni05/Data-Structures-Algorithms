@@ -45,10 +45,7 @@ class firstOccurrence
            	break;
           }
         }
-        if(c!=-1)
          System.out.println(c);
-        else
-          System.out.println("-1"); 
       }
     }
 }
