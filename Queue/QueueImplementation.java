@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Main 
+public class QueueImplementation 
 {
     int front=-1,rear=-1,maxSize;
     int[] queue;
