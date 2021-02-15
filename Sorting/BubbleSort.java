@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Main 
+public class BubbleSort
 {
     public void bubbleSort(int[] a,int n)
     {
