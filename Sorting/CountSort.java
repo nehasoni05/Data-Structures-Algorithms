@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Main
+public class CountSort
 {
     public void countSort(int[] a,int n)
     {
