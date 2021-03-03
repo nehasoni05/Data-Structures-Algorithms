@@ -1,3 +1,6 @@
+/*
+Given a binary tree, print it in inorder, preorder and postorder fashion with recursion.
+*/
 import java.util.*;
 public class Main
 {
