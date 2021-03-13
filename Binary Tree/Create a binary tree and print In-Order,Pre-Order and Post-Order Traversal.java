@@ -25,7 +25,9 @@ public class Main
     {
         if(i<n)
         {
+	    if(root==null)
             root=new Node(array[i]);
+	
             root.leftChild=insert(array,root.leftChild,2*i+1,n);
             root.rightChild=insert(array,root.rightChild,2*i+2,n);
         }
