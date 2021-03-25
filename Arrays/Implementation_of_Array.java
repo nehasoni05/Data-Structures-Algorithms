@@ -13,7 +13,7 @@ Element at index 4 : 50
 
 import java.util.Scanner;
 
-class Main
+class Implementation_of_Array
 {
   public static void main(String[] args)
   {
