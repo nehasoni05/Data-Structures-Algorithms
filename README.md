@@ -7,7 +7,7 @@ This is an attempt to implement all kind of widely used Algorithms and Data Stru
 <ul>
   <li><h3>Linked List</h3></li>
   <ul>
-    <b>Singly Linked List</b>
+    <b> <a href="https://github.com/nehasoni05/Data-Structures-Algorithms/tree/master/Linked%20List">Singly Linked List</a> </b>
     <li>Implementation of Singly Linked List</li>
     <li>Deletion in singly linked list</li>
     <li>Insertion in singly linked list</li>
