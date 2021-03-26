@@ -34,7 +34,7 @@ public class Main
         System.out.print("Enter the k th position at which you want to check number:");
         int k = in.nextInt(); 
     
-          if(k>=n)
+          if(k>=n || k<0)
             System.out.print("Invalid value of k");
           else
             System.out.println("Number:"+a[k-1]);  
