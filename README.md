@@ -5,7 +5,8 @@ This is an attempt to implement all kind of widely used Algorithms and Data Stru
 <hr/>
 
 <ul>
-  <li><h3>Linked List</h3></li><hr/>
+  <li><h3>Linked List</h3></li>
+  <hr/>
   <ul>
     <b> <a href="https://github.com/nehasoni05/Data-Structures-Algorithms/tree/master/Linked%20List">Singly Linked List</a> </b>
     <li>Implementation of Singly Linked List</li>
@@ -22,7 +23,8 @@ This is an attempt to implement all kind of widely used Algorithms and Data Stru
     <li>Reverse a doubly linked list</li>
   </ul>
   
-  <li><h3><a href="https://github.com/nehasoni05/Data-Structures-Algorithms/tree/master/Stack">Stack</a></h3></li><hr/>
+  <li><h3><a href="https://github.com/nehasoni05/Data-Structures-Algorithms/tree/master/Stack">Stack</a></h3></li>
+  <hr/>
   <ul>
     <li>Stack implementation</li>
     <li>Evaluate the postfix expression using Stack.</li>
@@ -34,7 +36,8 @@ This is an attempt to implement all kind of widely used Algorithms and Data Stru
     <li>Minimum bracket reversals for balanced expression</li>
   </ul>
   
-   <li><h3><a href="https://github.com/nehasoni05/Data-Structures-Algorithms/tree/master/Queue">Queue</a></h3></li><hr/>
+   <li><h3><a href="https://github.com/nehasoni05/Data-Structures-Algorithms/tree/master/Queue">Queue</a></h3></li>
+   <hr/>
   <ul>
     <li>Queue implementation</li>
     <li>Reverse a queue.</li>
@@ -45,8 +48,9 @@ This is an attempt to implement all kind of widely used Algorithms and Data Stru
   </ul>
   
 <li><h3>Tree</h3></li>
+<hr/>
   <ul>
-  <b><a href="https://github.com/nehasoni05/Data-Structures-Algorithms/tree/master/Binary%20Tree">Binary Tree</a></b><hr/>
+  <b><a href="https://github.com/nehasoni05/Data-Structures-Algorithms/tree/master/Binary%20Tree">Binary Tree</a></b>
     <li>Create a binary tree and print In-Order,Pre-Order and Post-Order Traversal</li>
     <li>Create a binary tree from array</li>
     <li>Convert a binary tree into its mirror tree</li>
@@ -63,7 +67,8 @@ This is an attempt to implement all kind of widely used Algorithms and Data Stru
     <li>Search in BST</li>
   </ul>
   
-   <li><h3><a href="https://github.com/nehasoni05/Data-Structures-Algorithms/tree/master/Heap">Heap</a></h3></li><hr/>
+   <li><h3><a href="https://github.com/nehasoni05/Data-Structures-Algorithms/tree/master/Heap">Heap</a></h3></li>
+   <hr/>
   <ul>
     <li>Insertion and deletion in max-heap.</li>
     <li>Check if a given tree is max-heap or not</li>
@@ -71,16 +76,19 @@ This is an attempt to implement all kind of widely used Algorithms and Data Stru
     <li>Sort Array using heap</li>
   </ul>
   
-  <li><h3><a href="https://github.com/nehasoni05/Data-Structures-Algorithms/tree/master/Graphs">Graphs</a></h3></li><hr/>
+  <li><h3><a href="https://github.com/nehasoni05/Data-Structures-Algorithms/tree/master/Graphs">Graphs</a></h3></li>
+<hr/>
   <ul>
     <li>Breadth First Traversal of Graph</li>
     <li>Depth First Traversal of Graph</li>
   </ul>
 </ul>
 
-### Algorithms<hr/>
+### Algorithms
+<hr/>
 <ul>
-  <li><h3><a href="https://github.com/nehasoni05/Data-Structures-Algorithms/tree/master/Sorting">Sorting</a></h3></li><hr/>
+  <li><h3><a href="https://github.com/nehasoni05/Data-Structures-Algorithms/tree/master/Sorting">Sorting</a></h3></li>
+  <hr/>
   <ul>
     <li>Bubble Sort</li>
     <li>Insertion Sort</li>
