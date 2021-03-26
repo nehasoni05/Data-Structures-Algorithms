@@ -88,7 +88,6 @@ This is an attempt to implement all kind of widely used Algorithms and Data Stru
 <hr/>
 <ul>
   <li><h3><a href="https://github.com/nehasoni05/Data-Structures-Algorithms/tree/master/Sorting">Sorting</a></h3></li>
-  <hr/>
   <ul>
     <li>Bubble Sort</li>
     <li>Insertion Sort</li>
