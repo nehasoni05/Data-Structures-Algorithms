@@ -9,7 +9,7 @@ Enter all the elements:
 3
 
 Sample output
-4
+Largest Number in an array: 4
 */
 
 import java.util.Scanner;
@@ -42,6 +42,6 @@ public class Main
           array[i]=in.nextInt();
           
           
-        System.out.println("Largest Number in an array:-"+find(array,n));  
+        System.out.println("Largest Number in an array: "+find(array,n));  
 	}
 }
